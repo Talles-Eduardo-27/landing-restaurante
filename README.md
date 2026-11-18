@@ -1,2 +1,38 @@
-# landing-restaurante
-Landing page responsiva para restaurante: cardápio com filtro, pedidos pelo WhatsApp e status aberto/fechado. HTML, CSS e JavaScript.
+# 🌊 Maré Cheia · Landing page de restaurante
+
+Site de uma página para um restaurante regional (fictício) em Fortaleza, pensado para pequenos negócios que ainda não têm site ou só usam o Instagram.
+
+🔗 **Ver ao vivo:** https://talles-eduardo-27.github.io/landing-restaurante/
+
+## O problema
+
+Muitos restaurantes locais perdem pedidos porque o cliente não acha cardápio, horário nem um jeito rápido de reservar.
+
+## A solução
+
+- **Cardápio com filtro** (do mar, do sertão, bebidas) gerado a partir de uma lista em JavaScript, fácil de editar
+- **Botão "Pedir" em cada prato** que abre o WhatsApp já com a mensagem pronta
+- **"Aberto agora / Fechado"** calculado pelo horário de Fortaleza
+- **Layout responsivo** com menu próprio para celular
+- Ilustração feita só com CSS (sem imagens pesadas), carregamento rápido
+
+## Tecnologias
+
+HTML5 · CSS3 (Grid, Flexbox, animações) · JavaScript puro
+
+## Como adaptar para um cliente
+
+1. Em `script.js`, troque `WHATSAPP`, os horários e a lista `pratos`
+2. Em `index.html`, troque nome, endereço e textos
+3. Em `style.css`, troque as cores nas variáveis do `:root`
+
+## O que aprendi
+
+- Gerar conteúdo dinâmico a partir de dados com `map` e `filter`
+- Montar links do WhatsApp com `encodeURIComponent`
+- Trabalhar com fuso horário usando `toLocaleString`
+- Organizar CSS com variáveis e media queries
+
+---
+
+Projeto de portfólio de [Talles Eduardo](https://github.com/Talles-Eduardo-27).
