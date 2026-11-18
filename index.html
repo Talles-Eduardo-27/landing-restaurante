@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Maré Cheia · Cozinha Cearense</title>
+  <meta name="description" content="Landing page de restaurante regional em Fortaleza. Projeto de portfólio.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="aviso">Projeto de portfólio · restaurante fictício</div>
+
+  <header class="topo" id="topo">
+    <a href="#inicio" class="marca">Maré <span>Cheia</span></a>
+    <button class="menu-btn" aria-label="Abrir menu" aria-expanded="false">☰</button>
+    <nav class="menu">
+      <a href="#cardapio">Cardápio</a>
+      <a href="#sobre">Sobre</a>
+      <a href="#visite">Visite</a>
+      <a href="#" class="btn btn-peq js-whats">Reservar</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="inicio">
+      <div class="hero-texto">
+        <p class="selo">Praia de Iracema · Fortaleza</p>
+        <h1>Peixe fresco, baião de dois e o pôr do sol da Beira-Mar.</h1>
+        <p class="sub">Cozinha cearense feita no dia, com ingredientes do Mucuripe e receitas de família.</p>
+        <div class="acoes">
+          <a href="#" class="btn js-whats">Pedir pelo WhatsApp</a>
+          <a href="#cardapio" class="btn btn-claro">Ver cardápio</a>
+        </div>
+        <ul class="destaques">
+          <li><strong>11h–23h</strong><span>todos os dias</span></li>
+          <li><strong>Delivery</strong><span>em até 40 min</span></li>
+          <li><strong>Pix e cartão</strong><span>sem taxa</span></li>
+        </ul>
+      </div>
+      <div class="hero-arte" aria-hidden="true">
+        <div class="sol"></div>
+        <div class="onda o1"></div>
+        <div class="onda o2"></div>
+        <div class="onda o3"></div>
+        <div class="jangada">⛵</div>
+      </div>
+    </section>
+
+    <section class="secao" id="cardapio">
+      <div class="cabeca">
+        <h2>Cardápio</h2>
+        <p>Pratos servem bem duas pessoas, salvo indicação.</p>
+      </div>
+      <div class="filtros" role="tablist">
+        <button class="filtro ativo" data-cat="todos">Todos</button>
+        <button class="filtro" data-cat="mar">Do mar</button>
+        <button class="filtro" data-cat="sertao">Do sertão</button>
+        <button class="filtro" data-cat="bebidas">Bebidas</button>
+      </div>
+      <div class="pratos" id="pratos"></div>
+    </section>
+
+    <section class="secao sobre" id="sobre">
+      <div class="sobre-texto">
+        <h2>Sobre a casa</h2>
+        <p>A Maré Cheia nasceu de uma barraca de praia e virou restaurante sem perder o jeito de casa de vó: panela no fogo cedo, peixe que chegou de manhã e atendimento sem pressa.</p>
+        <p>Aqui o cardápio muda com o mar. Se a pescaria foi boa, tem prato do dia; se não foi, tem baião de dois caprichado.</p>
+      </div>
+      <div class="numeros">
+        <div><strong>3</strong><span>gerações na cozinha</span></div>
+        <div><strong>100%</strong><span>peixe do dia</span></div>
+        <div><strong>120</strong><span>lugares com vista</span></div>
+      </div>
+    </section>
+
+    <section class="secao visite" id="visite">
+      <div>
+        <h2>Visite</h2>
+        <p><strong>Endereço:</strong> Av. Beira-Mar, 0000 · Praia de Iracema, Fortaleza-CE</p>
+        <p><strong>Horário:</strong> todos os dias, das 11h às 23h</p>
+        <p class="status" id="status"></p>
+        <a href="#" class="btn js-whats">Reservar mesa</a>
+      </div>
+      <div class="mapa" aria-label="Mapa ilustrativo">
+        <span>📍</span>
+        <p>Beira-Mar, Fortaleza</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="rodape">
+    <p>Maré Cheia é um restaurante fictício. Site criado por <a href="https://github.com/Talles-Eduardo-27">Talles Eduardo</a> como projeto de portfólio.</p>
+  </footer>
+
+  <a href="#" class="whats-flutuante js-whats" aria-label="Falar no WhatsApp">💬</a>
+
+  <script src="script.js"></script>
+</body>
+</html>
