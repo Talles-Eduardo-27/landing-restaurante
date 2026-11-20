@@ -4,6 +4,8 @@ Site de uma página para um restaurante regional (fictício) em Fortaleza, pensa
 
 🔗 **Ver ao vivo:** https://talles-eduardo-27.github.io/landing-restaurante/
 
+> Feito com IA (Claude) e revisado por mim. Uso este site como modelo para mostrar a clientes; o restaurante, o endereço e os preços são fictícios.
+
 ## O problema
 
 Muitos restaurantes locais perdem pedidos porque o cliente não acha cardápio, horário nem um jeito rápido de reservar.
@@ -26,7 +28,7 @@ HTML5 · CSS3 (Grid, Flexbox, animações) · JavaScript puro
 2. Em `index.html`, troque nome, endereço e textos
 3. Em `style.css`, troque as cores nas variáveis do `:root`
 
-## O que aprendi
+## O que este projeto pratica
 
 - Gerar conteúdo dinâmico a partir de dados com `map` e `filter`
 - Montar links do WhatsApp com `encodeURIComponent`
